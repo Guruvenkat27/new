@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+ 
+    nav{
+        border: 2px solid gray;
+        height: 8vh;
+        position: fixed;
+        width: 99%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        color: white;
+        font-size: 32px;
+        position: relative;
+        left: 20px;
+    }
+    .more{
+        display: flex;
+        position: relative;
+        left: -50px;
+       
+        border: 2px solid gray;
+    }
+    .more li{
+        list-style: none;
+        margin-left: 60px;
+    }
+    .more li a{
+        text-decoration: none;
+        font-size: 23px;
+        color: white;
+    }
+    .icon{
+        display: none;
+    }
+    section{
+        border: 2px solid gray;
+        height: 98vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        border: 2px solid gray;
+        height: 80%;
+        display: flex;
+       margin-top: 5%;
+        align-items: center;
+        justify-content: center;
+ width: 90%;
+    }
+    .bio{
+        border: 2px solid gray;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        height: 100%;
+    }
+    .bio .info{
+        border: 2px solid gray;
+       height: 20%;
+       display: flex;
+       align-items: center;
+       font-size: 44px;
+    
+    }
+    .info p{
+        margin: 0 30px;
+        color: whitesmoke;
+    }
+    .img{
+        border: 2px solid gray;
+        width: 40%;
+        height: 100%;
+    }
+    .icons{
+        border: 2px solid gray;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        gap: 20px;
+        padding: o;
+    }
+    .bio button{
+width: 32%;
+height: 8%;
+font-size: 20px ;
+margin-left: 26px;
+    }
+    .icons i{
+        position: relative;
+        left: 7%;
+    }
+    .fa-linkedin{
+        color: blue;
+        
+    }
+.fa-twitter{
+    color: rgb(9, 122, 243);
+}
+.fa-whatsapp{
+    color: rgb(27, 235, 27);
+}
+.fa-youtube{
+    color: rgb(194, 8, 8);
+}
+   
+.fa-github
+{
+    color: black;
+} 
+.sec{
+    display: flex;
+  
+    justify-content: center;
+    flex-direction: column;
+}  
+.skil{
+    border: 2px solid gray;
+    height: 70%;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 70px;
+flex-wrap: wrap;
+}
+.b1{
+    border: 2px solid gray;
+    width: 23%;
+    height: 45%;
+}
+.b1:hover{
+    height: 80%;
+}.head h2{
+
+    color: aliceblue;
+    font-size: 40px;
+
+
+}
+.imag{
+    border: 2px solid gray;
+    height: 100%;
+}
+.b1:hover .imag{
+    height: 50%;
+}
+
+
+
+
+@media screen and (max-width:736px) {
+       nav {
+background-color: aqua;
+        }
+        .logo{
+            font-size: 29px;
+        }
+        .more{
+            display: none;
+        }
+        .icon{
+            display: block;
+            position: relative;
+            left: -10%;
+            font-size: 18px;
+        }
+        section{
+            height: 90vh;
+            position: relative;top:42px ;
+            z-index: -1;
+        }
+        .box{
+            height: 89%;
+        }
+        .bio{
+            width: 100%;
+        }
+        .img{
+            display: none;
+        }
+       .bio button{
+            width: 44%;
+        }
+        .box p{
+            
+            height: 15%;
+            color: white;
+            font-size: 26px;
+        }
+        .icons i{
+          
+           position: relative;
+           left: 10%;
+          
+            
+        }
+        .sec{
+            height: 170vh;
+        }
+.skil{
+   
+  height: 90%;
+
+}
+.head{
+  
+}
+.b1{
+    width: 60%;
+    height: 30%;
+}
+.imag{
+    border: 2px solid gray;
+    width: 100%;
+    height: 40%;
+}
+    }
+</style>
+</head>
+<body style="background-image: linear-gradient(45deg, rgb(82, 2, 132),rgb(73, 3, 91),rgb(72, 0, 111));">
+    <nav>
+        <div class="logo">GURU</div>
+        <div class="more"><li><a href="">Home</a></li>
+        <li><a href="">contact</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">more</a></li>
+    <li><a href="">LOGIN</a></li></div>
+    <div class="icon"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+    <section>
+        <div class="box">
+            <div class="bio">
+<div class="info">
+    <p>HI! Welcome.........</p>
+</div>
+<button>
+<a href="">Discover</a>
+</button>
+<div class="icons">
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-brands fa-youtube"></i>
+   
+    <i class="fa-brands fa-github"></i>
+</div>
+            </div>
+            <div class="img">
+
+            </div>
+        </div>
+    </section>
+    <section class="sec">
+       <div class="head"> <h2>MY SKILLS</h2></div>
+<div class="skil">
+    <div class="b1"><div class="imag">    <i class="fa-brands fa-youtube"></i>
+    </div></div>
+    <div class="b1"><div class="imag"></div></div>
+    <div class="b1"><div class="imag"></div></div>
+</div>
+    </section>
+</body>
+</html>
